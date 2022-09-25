@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}.navbar {
+  overflow: hidden; /* Hide overflow */
+  border-radius: 25px;
+  background-color: rgba(255, 99, 71, 0.5) /* Dark background color */
+}
+.header {
+  padding: 80px; /* some padding */
+  border-radius: 25px;
+  text-align: center; /* center the text */
+  background: rgba(255, 99, 71, 0.5); /* background */
+  color: #FFF2DE; /* white text color */
+  border-style: solid;
+  border-color: white;
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  border-radius: 25px;
+  font-size: 40px;
+}
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */ 
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: grey/* Grey background color */
+  color: black; /* Black text color */
+}
+
+
+
+h1 {
+  border-style: solid;
+  border-color: white;
+  background-color: lightpink;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
